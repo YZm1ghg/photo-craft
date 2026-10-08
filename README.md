@@ -4,6 +4,43 @@
 
 ---
 
+## 安装
+
+### 方式一：下载发布包（推荐）
+
+到 [Releases](https://github.com/YZm1ghg/photo-craft/releases) 下载
+`photo-craft-v1.0.0.zip`，解压后放进你的插件目录：
+
+```
+<你的插件目录>/photo-craft/
+```
+
+解压后应能看到 `.zcode-plugin/`、`commands/`、`skills/`、`agents/`、
+`README.md`、`LICENSE`。
+
+### 方式二：git clone
+
+```bash
+git clone https://github.com/YZm1ghg/photo-craft.git
+```
+
+放到插件目录下即可，效果与方式一相同。
+
+### 依赖
+
+**无第三方依赖。** 技法能力（人像/用光/构图/后期/商业/婚礼儿童）开箱即用，
+不需要 Python、Node 或任何包管理器。
+
+> 只有想自建检索书库（拿到"书名+页码"出处）时，才会用到
+> `corpus/` 里的 Python 脚本，详见下方「自己搭一个书库」。
+
+### 验证安装
+
+装上后，输入 `/photo` 或直接说"这张照片哪不对"。
+若能看到本技能被触发，即为安装成功。
+
+---
+
 ## 三种用法
 
 | 方式 | 怎么用 | 适合 |
