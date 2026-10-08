@@ -1,0 +1,16 @@
+{
+  "name": "photo-craft",
+  "version": "1.0.0",
+  "description": "Photography agent for portrait posing, lighting/flash, composition, post-processing, commercial and wedding/children photography. Answers with concrete numbers, not adjectives; page-level citations when you supply your own book library.",
+  "description_i18n": {
+    "en": "Photography agent — portrait posing, lighting/flash, composition, post-processing, commercial and wedding/children photography. Ships original distilled notes and tooling only; no book text is included. Bring your own legally obtained library to get page-level citations.",
+    "zh-CN": "摄影专业 Agent —— 人像摆姿、用光闪光灯、构图、后期调色、商业与婚礼儿童摄影顾问。只含原创提炼笔记与工具，不含任何图书正文；自备合法书库即可检索原文并给出书名页码出处。"
+  },
+  "author": {
+    "name": "TXYZ"
+  },
+  "license": "MIT",
+  "skills": "skills",
+  "commands": "commands",
+  "agents": "agents"
+}
